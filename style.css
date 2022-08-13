@@ -35,10 +35,26 @@ section{
 }
 
 .services .box-container{
+   /* display : grid/inline grid */
    display: grid;
+  
    grid-template-columns: repeat(auto-fit,minmax(16rem,1fr));
+    /* column-ga-/row-gap */
    row-gap: 1.5rem;
    column-gap: 2rem;
+
+   /* JUSTIFY-ITEMS */
+   /* justify-items: start|end|center|stretch; */
+
+
+/* ALIGN-ITEM */
+/* align-items:start|end|center|stretch; */
+
+/* JUSTIFY-CONTENT */
+/* justify-content: start|end|center|stretch|space-around|space-between|; */
+
+
+
 }
 
 .services .box-container .box{
